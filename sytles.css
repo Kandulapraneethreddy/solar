@@ -1,0 +1,234 @@
+body{
+    background-image: url(soloar\ background.jpg);
+    background-attachment: fixed;
+}
+div{
+    
+        margin: 40px;
+
+}
+#neptune{
+    height: 900px;
+    width: 900px;
+    border: 1px solid white;
+    border-radius: 50%
+    
+}
+#neptune_pic{
+    position: absolute;
+    top: 20px;
+    left: 420px;
+    animation-name: first;
+    animation-duration: 6s;
+    animation-iteration-count: initial;
+
+    
+}
+
+@keyframes first{
+    from { top: 380px;}
+    to{top: 20px;}
+     from{ left: 600px; rotate: 360deg;}
+     to{right: 400px;}
+
+}
+
+#uranus{
+height: 800px;
+width: 800px;
+border: 1px solid white;
+border-radius: 50%
+
+}
+#uranus_pic{
+    position: absolute;
+    top: 60px;
+    left: 300px;
+     padding: 50px; 
+     animation-name:two ;
+    animation-duration: 4s;
+    animation-iteration-count: initial;
+}
+    @keyframes two{
+        from { top: 380px;}
+        to{top: 60px;}
+         from{ left: 600px; rotate: 360deg;}
+         to{right: 400px;}
+
+    
+    
+}
+ #saturn{
+    height: 700px;
+    width: 700px;
+    border: 1px solid white;
+    border-radius: 50%
+
+    }
+    
+    #saturn_pic{
+        position: absolute;
+        top: 120px;
+        right: 300px;
+        padding: 50px;
+        animation-name: three;
+         animation-duration: 3s;
+        animation-iteration-count: initial;
+    }
+        @keyframes three{
+            from { top: 380px;}
+            to{top: 120px;}
+             from{ left: 600px; rotate: 360deg;}
+             to{right: 400px;}
+
+    
+        
+    }   
+    
+    #jupiter{
+        height: 600px;
+        width: 600px;
+        border: 1px solid white;
+        border-radius: 50%
+    
+        }
+        #jupiter_pic{
+            position: absolute;
+            top: 200px;
+            right: 300px;
+            padding: 50px;
+            animation-name:four ;
+            animation-duration: 3s;
+            animation-iteration-count: initial;
+        }
+            @keyframes four{
+                from { top: 380px;}
+                to{top: 200px;}
+                 from{ left: 600px; rotate: 360deg;}
+                 to{right: 400px;}
+
+    
+            
+        }
+        #mars{
+            height: 500px;
+            width: 500px;
+            border: 1px solid white;
+            border-radius: 50%
+        
+            }
+            #mars_pic{
+                position: absolute;
+                top: 260px;
+                left: 325px;
+                padding: 50px;
+                animation-name: five;
+                 animation-duration: 6s;
+                animation-iteration-count: initial;
+            }
+                @keyframes five{
+                    from { top: 380px;}
+                    to{top: 260px;}
+                     from{ left: 600px; rotate: 360deg;}
+                     to{right: 400px;}
+                
+
+    
+                
+            }
+            #earth{
+                height: 400px;
+                width: 400px;
+                border: 1px solid white;
+                border-radius: 50%
+            
+                }
+                #earth_pic{
+                    position: absolute;
+                    top: 350px;
+                    left: 355px;
+                    padding: 50px;
+                    animation-name: six;
+                    animation-duration: 6s;
+                   animation-iteration-count: initial;
+                }
+                   @keyframes six{
+                    from { top: 380px;}
+                    to{top: 350px;}
+                     from{ left: 600px; rotate: 360deg;}
+                     to{right: 400px;}
+                   }
+
+    
+
+                    
+                
+                #venus{
+                    height: 300px;
+                    width: 300px;
+                    border: 1px solid white;
+                    border-radius: 50%
+                
+                    }
+                    #venus_pic{
+                        position: absolute;
+                        top:500px ;
+                        right: 550px;
+                        padding: 50px;
+                        animation-name: seven;
+                        animation-duration: 5s;
+                        animation-iteration-count: initial;
+                    }
+                        @keyframes seven{
+                            from { top: 350px;}
+                            to{top: 420px;}
+                             from{ left: 600px; rotate: 360deg;}
+                             to{right: 650px;}
+                    
+                        
+                        
+                    }
+                
+                    #mercury{
+                        height: 200px;
+                        width: 200px;
+                        border: 1px solid white;
+                        border-radius: 50%
+                    
+                        }
+                        #mercury_pic{
+                            position: absolute;
+                            top: 350px;
+                            left: 650px;
+                            padding: 50px;
+                            animation-name: eight;
+                          animation-duration: 6s;
+                          animation-iteration-count: initial;
+                        
+                        }
+                          @keyframes eight{
+                            from { top: 300px;}
+                            to{top: 350px;}
+                             from{ left: 525px; rotate: 360deg;}
+                             to{right: 400px;}
+
+    
+                            
+                        }
+                        #sun{
+                            height: 0px;
+                            width: 0px;
+                            border: 1px solid white;
+                            border-radius: 50%
+                        
+                            }
+                            #sun_pic{
+                                position: absolute;
+                                top: 320px;
+                                left: 520px;
+                                padding: 50px;
+                                
+                            }
+
+
+
